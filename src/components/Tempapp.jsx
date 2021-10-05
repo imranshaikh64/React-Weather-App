@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import './css/Style.css';
 
 const Tempapp = () => {
-    const [city, setCity] = useState('null');
+    const [city, setCity] = useState(null);
     const [search, setSearch] = useState('');
 
     useEffect(() => {
