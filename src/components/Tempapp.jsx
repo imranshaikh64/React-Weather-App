@@ -30,7 +30,7 @@ const Tempapp = () => {
 
 
                 {!city ? (
-                    <p className='errorMsg'>No data found</p>
+                    <p className='errorMsg'>No data found !</p>
                 ) : (
                     <div>
                         <div className='info'>
